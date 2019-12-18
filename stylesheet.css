@@ -1,1 +1,75 @@
-css stuff 
+@import url('https://fonts.googleapis.com/css?family=Martel:400,700&display=swap');
+
+
+/* BACKGROUND IMAGE */
+
+html { 
+	background: url("images/bambooforest.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+img {
+    position: absolute;
+    top: 1em;
+	left: 45%;
+	/* fading in */
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+/* FONTS */
+header h1 {
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+	color:#384B2F;
+	text-align: center;
+	margin-top: 5em;
+	font-size: 50px;
+	/* fading in */
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+h2, h3, h4, p, li{
+	font-family: 'Martel', sans-serif;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* BUTTONS */
+#menu {
+	margin: 0 25em;
+	width: 40%;
+	padding: 10px;
+}
+
+button {
+	margin: 20px 30px;
+	width: auto;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0 25px;
+	border: 3px solid #384B2F;
+	opacity: 0.8;
+	background-color: transparent;
+	color:#384B2F;
+	font-family: 'Martel', sans-serif;
+	text-align: center;
+}
+button:hover {
+	background: #89AF7A;
+}
+
