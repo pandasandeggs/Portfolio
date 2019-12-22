@@ -24,19 +24,16 @@ h2, h3, h4, p, li{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	html {
-		width: 245px;
-	}
+	
 
 	img {
 		position: absolute;
 		top: 2em;
-		left: 15%;
+		left: 3em;
 		padding-top: 2em;
 		height: 125px;
-   		width: 125px;
-    	padding-left: auto;
-    	padding-left: 15px;
+		width: 125px;
+		padding-left: 5em;
 		-webkit-animation: fadein 3s;
 		-moz-animation: fadein 3s;
 		-ms-animation: fadein 3s;
@@ -67,7 +64,7 @@ h2, h3, h4, p, li{
 	}
 
 	button {
-		margin: 10px 30px;
+		margin: 10px 55px;
 		width: 6em;
 		line-height: 45px;
 		font-weight: normal;
@@ -79,6 +76,7 @@ h2, h3, h4, p, li{
 		color: white;
 		font-family: 'Bebas Neue', cursive;
 		text-align: center;
+		transition: 0.5s;
 	}
 	button:hover {
 		background: #89AF7A;
@@ -87,16 +85,135 @@ h2, h3, h4, p, li{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+	img {
+		position: absolute;
+		top: 2em;
+		left: 40%;
+		padding-top: 2.5em;
+		/* fading in */
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+		   -moz-animation: fadein 3s; /* Firefox < 16 */
+			-ms-animation: fadein 3s; /* Internet Explorer */
+			 -o-animation: fadein 3s; /* Opera < 12.1 */
+				animation: fadein 3s;
+	}
+	
+	/* FONTS */
+	header h1 {
+		font-family: 'Bebas Neue', cursive;
+		font-weight: normal;
+		color: white;
+		text-align: center;
+		margin-top: 3.5em;
+		font-size: 4em;
+		padding-top: 1.5em;
+		/* fading in */
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+		   -moz-animation: fadein 5s; /* Firefox < 16 */
+			-ms-animation: fadein 5s; /* Internet Explorer */
+			 -o-animation: fadein 5s; /* Opera < 12.1 */
+				animation: fadein 5s;
+	}
+	
+	@keyframes fadein {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+	
+	/* BUTTONS */
+	#menu {
+		margin: 0 6em;
+    	width: 100%;
+    	padding: 10px;
+	}
+	
+	button {
+		margin: 20px 30px;
+		width: 7em;
+		line-height: 45px;
+		font-weight: normal;
+		font-size: 1em;
+		padding: 0 25px;
+		border: 3px solid white;
+		opacity: 0.8;
+		background-color: transparent;
+		color: white;
+		font-family: 'Bebas Neue', cursive;
+		text-align: center;
+		transition: 0.5s;
+	}
+	button:hover {
+		background: #89AF7A;
+	}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+	img {
+		position: absolute;
+		top: 2em;
+		left: 45%;
+		padding-top: 2.5em;
+		/* fading in */
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+		   -moz-animation: fadein 3s; /* Firefox < 16 */
+			-ms-animation: fadein 3s; /* Internet Explorer */
+			 -o-animation: fadein 3s; /* Opera < 12.1 */
+				animation: fadein 3s;
+	}
+	
+	/* FONTS */
+	header h1 {
+		font-family: 'Bebas Neue', cursive;
+		font-weight: normal;
+		color: white;
+		text-align: center;
+		margin-top: 3.5em;
+		font-size: 4em;
+		padding-top: 1.5em;
+		/* fading in */
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+		   -moz-animation: fadein 5s; /* Firefox < 16 */
+			-ms-animation: fadein 5s; /* Internet Explorer */
+			 -o-animation: fadein 5s; /* Opera < 12.1 */
+				animation: fadein 5s;
+	}
+	
+	@keyframes fadein {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+	
+	/* BUTTONS */
+	#menu {
+		margin: 0 15em;
+    	width: 100%;
+    	padding: 10px;
+	}
+	
+	button {
+		margin: 20px 30px;
+		width: 7em;
+		line-height: 45px;
+		font-weight: normal;
+		font-size: 1em;
+		padding: 0 25px;
+		border: 3px solid white;
+		opacity: 0.8;
+		background-color: transparent;
+		color: white;
+		font-family: 'Bebas Neue', cursive;
+		text-align: center;
+		transition: 0.5s;
+	}
+	button:hover {
+		background: #89AF7A;
+	}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen  (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
 	img {
 		position: absolute;
 		top: 2em;
@@ -141,7 +258,7 @@ h2, h3, h4, p, li{
 	
 	button {
 		margin: 20px 30px;
-		width: 6em;
+		width: 7em;
 		line-height: 45px;
 		font-weight: normal;
 		font-size: 1em;
@@ -152,6 +269,71 @@ h2, h3, h4, p, li{
 		color: white;
 		font-family: 'Bebas Neue', cursive;
 		text-align: center;
+		transition: 0.5s;
+	}
+	button:hover {
+		background: #89AF7A;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	img {
+		position: absolute;
+		top: 2em;
+		left: 45%;
+		padding-top: 2.5em;
+		/* fading in */
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+		   -moz-animation: fadein 3s; /* Firefox < 16 */
+			-ms-animation: fadein 3s; /* Internet Explorer */
+			 -o-animation: fadein 3s; /* Opera < 12.1 */
+				animation: fadein 3s;
+	}
+	
+	/* FONTS */
+	header h1 {
+		font-family: 'Bebas Neue', cursive;
+		font-weight: normal;
+		color: white;
+		text-align: center;
+		margin-top: 3.5em;
+		font-size: 4em;
+		padding-top: 1.5em;
+		/* fading in */
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+		   -moz-animation: fadein 5s; /* Firefox < 16 */
+			-ms-animation: fadein 5s; /* Internet Explorer */
+			 -o-animation: fadein 5s; /* Opera < 12.1 */
+				animation: fadein 5s;
+	}
+	
+	@keyframes fadein {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+	
+	/* BUTTONS */
+	#menu {
+		margin: 0 25em;
+		width: 40%;
+		padding: 10px;
+	}
+	
+	button {
+		margin: 20px 30px;
+		width: 7em;
+		line-height: 45px;
+		font-weight: normal;
+		font-size: 1em;
+		padding: 0 25px;
+		border: 3px solid white;
+		opacity: 0.8;
+		background-color: transparent;
+		color: white;
+		font-family: 'Bebas Neue', cursive;
+		text-align: center;
+		transition: 0.5s;
 	}
 	button:hover {
 		background: #89AF7A;
