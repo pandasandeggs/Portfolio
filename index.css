@@ -1,7 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/bambooforest.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 
 /* BACKGROUND IMAGE */
+
+/* body, html {
+	height: 100%;
+	line-height: 1.8;
+}
 
 html { 
 	background: url("images/bambooforest.jpg") no-repeat center center fixed; 
@@ -9,7 +34,14 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  }
+}
+
+{
+background-position: center;
+background-size: cover;
+background-image: url("/w3images/mac.jpg");
+min-height: 100%;
+}
 
 h2, h3, h4, p, li{
 	font-family: 'Bebas Neue', cursive;
@@ -20,10 +52,10 @@ h2, h3, h4, p, li{
 	to   { opacity: 1; }
 }
 
-
+ */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 	
 
 	img {
@@ -84,22 +116,22 @@ h2, h3, h4, p, li{
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
 	img {
 		position: absolute;
 		top: 2em;
 		left: 40%;
 		padding-top: 2.5em;
-		/* fading in */
-		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 3s; /* Firefox < 16 */
-			-ms-animation: fadein 3s; /* Internet Explorer */
-			 -o-animation: fadein 3s; /* Opera < 12.1 */
+		/* fading in 
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 3s; /* Firefox < 16 
+			-ms-animation: fadein 3s; /* Internet Explorer 
+			 -o-animation: fadein 3s; /* Opera < 12.1 
 				animation: fadein 3s;
-	}
+	}  */
 	
-	/* FONTS */
+	/* FONTS 
 	header h1 {
 		font-family: 'Bebas Neue', cursive;
 		font-weight: normal;
@@ -108,21 +140,21 @@ h2, h3, h4, p, li{
 		margin-top: 3.5em;
 		font-size: 4em;
 		padding-top: 1.5em;
-		/* fading in */
-		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 5s; /* Firefox < 16 */
-			-ms-animation: fadein 5s; /* Internet Explorer */
-			 -o-animation: fadein 5s; /* Opera < 12.1 */
+		
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 5s; /* Firefox < 16 
+			-ms-animation: fadein 5s; /* Internet Explorer 
+			 -o-animation: fadein 5s; /* Opera < 12.1 
 				animation: fadein 5s;
 	}
 	
 	@keyframes fadein {
 		from { opacity: 0; }
 		to   { opacity: 1; }
-	}
+	} */
 	
 	/* BUTTONS */
-	#menu {
+	/* #menu {
 		margin: 0 6em;
     	width: 100%;
     	padding: 10px;
@@ -146,25 +178,25 @@ h2, h3, h4, p, li{
 	button:hover {
 		background: #89AF7A;
 	}
-}
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 	img {
 		position: absolute;
 		top: 2em;
 		left: 45%;
-		padding-top: 2.5em;
+		padding-top: 2.5em; */
 		/* fading in */
-		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 3s; /* Firefox < 16 */
-			-ms-animation: fadein 3s; /* Internet Explorer */
-			 -o-animation: fadein 3s; /* Opera < 12.1 */
-				animation: fadein 3s;
+		/*-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 3s; /* Firefox < 16 
+			-ms-animation: fadein 3s; /* Internet Explorer 
+			 -o-animation: fadein 3s; /* Opera < 12.1 
+				animation: fadein 3s;*/
 	}
 	
 	/* FONTS */
-	header h1 {
+	/* header h1 {
 		font-family: 'Bebas Neue', cursive;
 		font-weight: normal;
 		color: white;
@@ -172,21 +204,21 @@ h2, h3, h4, p, li{
 		margin-top: 3.5em;
 		font-size: 4em;
 		padding-top: 1.5em;
-		/* fading in */
-		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 5s; /* Firefox < 16 */
-			-ms-animation: fadein 5s; /* Internet Explorer */
-			 -o-animation: fadein 5s; /* Opera < 12.1 */
+		/* fading in 
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 5s; /* Firefox < 16 
+			-ms-animation: fadein 5s; /* Internet Explorer 
+			 -o-animation: fadein 5s; /* Opera < 12.1 
 				animation: fadein 5s;
 	}
 	
 	@keyframes fadein {
 		from { opacity: 0; }
 		to   { opacity: 1; }
-	}
+	} */
 	
 	/* BUTTONS */
-	#menu {
+	/* #menu {
 		margin: 0 15em;
     	width: 100%;
     	padding: 10px;
@@ -210,25 +242,25 @@ h2, h3, h4, p, li{
 	button:hover {
 		background: #89AF7A;
 	}
-}
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
 	img {
 		position: absolute;
 		top: 2em;
 		left: 45%;
 		padding-top: 2.5em;
-		/* fading in */
-		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 3s; /* Firefox < 16 */
-			-ms-animation: fadein 3s; /* Internet Explorer */
-			 -o-animation: fadein 3s; /* Opera < 12.1 */
+		/* fading in 
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 3s; /* Firefox < 16 
+			-ms-animation: fadein 3s; /* Internet Explorer 
+			 -o-animation: fadein 3s; /* Opera < 12.1 
 				animation: fadein 3s;
-	}
+	} */
 	
 	/* FONTS */
-	header h1 {
+	/* header h1 {
 		font-family: 'Bebas Neue', cursive;
 		font-weight: normal;
 		color: white;
@@ -236,21 +268,21 @@ h2, h3, h4, p, li{
 		margin-top: 3.5em;
 		font-size: 4em;
 		padding-top: 1.5em;
-		/* fading in */
-		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 5s; /* Firefox < 16 */
-			-ms-animation: fadein 5s; /* Internet Explorer */
-			 -o-animation: fadein 5s; /* Opera < 12.1 */
+		/* fading in 
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 5s; /* Firefox < 16 
+			-ms-animation: fadein 5s; /* Internet Explorer 
+			 -o-animation: fadein 5s; /* Opera < 12.1 
 				animation: fadein 5s;
 	}
 	
 	@keyframes fadein {
 		from { opacity: 0; }
 		to   { opacity: 1; }
-	}
+	} */
 	
 	/* BUTTONS */
-	#menu {
+	/* #menu {
 		margin: 0 25em;
 		width: 40%;
 		padding: 10px;
@@ -274,25 +306,25 @@ h2, h3, h4, p, li{
 	button:hover {
 		background: #89AF7A;
 	}
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
 	img {
 		position: absolute;
 		top: 2em;
 		left: 45%;
 		padding-top: 2.5em;
-		/* fading in */
-		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 3s; /* Firefox < 16 */
-			-ms-animation: fadein 3s; /* Internet Explorer */
-			 -o-animation: fadein 3s; /* Opera < 12.1 */
+		/* fading in 
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 3s; /* Firefox < 16 
+			-ms-animation: fadein 3s; /* Internet Explorer 
+			 -o-animation: fadein 3s; /* Opera < 12.1 
 				animation: fadein 3s;
-	}
+	} */
 	
 	/* FONTS */
-	header h1 {
+	/* header h1 {
 		font-family: 'Bebas Neue', cursive;
 		font-weight: normal;
 		color: white;
@@ -300,21 +332,21 @@ h2, h3, h4, p, li{
 		margin-top: 3.5em;
 		font-size: 4em;
 		padding-top: 1.5em;
-		/* fading in */
-		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-		   -moz-animation: fadein 5s; /* Firefox < 16 */
-			-ms-animation: fadein 5s; /* Internet Explorer */
-			 -o-animation: fadein 5s; /* Opera < 12.1 */
+		/* fading in 
+		-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 
+		   -moz-animation: fadein 5s; /* Firefox < 16 
+			-ms-animation: fadein 5s; /* Internet Explorer 
+			 -o-animation: fadein 5s; /* Opera < 12.1 
 				animation: fadein 5s;
 	}
 	
 	@keyframes fadein {
 		from { opacity: 0; }
 		to   { opacity: 1; }
-	}
+	} */
 	
 	/* BUTTONS */
-	#menu {
+	/* #menu {
 		margin: 0 25em;
 		width: 40%;
 		padding: 10px;
@@ -338,5 +370,5 @@ h2, h3, h4, p, li{
 	button:hover {
 		background: #89AF7A;
 	}	
-}
+}  */
 
