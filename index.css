@@ -19,6 +19,15 @@ body, html {
   padding: 16px;
 }
 
+.w3-right{
+	margin-top: .75em;
+}
+
+.w3-card, #pricing {
+	background-color: #6CB25E;
+}
+
+
 
 /* BACKGROUND IMAGE */
 
