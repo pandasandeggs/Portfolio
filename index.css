@@ -23,6 +23,18 @@ body, html {
   width: 20%;
 }
 
+.WorkPics {
+  padding 1em;
+  text-align: center;
+  justify-content: center;
+}
+
+#portfolio-img-1, #portfolio-img-2, #portfolio-img-3 {
+  text-align: center;
+} {
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .bgimg-1 {
     background-position: center;
@@ -41,6 +53,12 @@ body, html {
 
   #mypic {
     width: 40%;
+  }
+
+  #portfolio-img-1, #portfolio-img-2, #portfolio-img-3 {
+    text-align: center;
+  } {
+    text-align: center;
   }
 
 }
